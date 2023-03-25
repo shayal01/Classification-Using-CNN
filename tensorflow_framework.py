@@ -16,9 +16,9 @@ import matplotlib.pyplot as plt
 
 
     
-#loading the mat file
+#loading the mat file which contain the pixel values 
 
-trX=io.loadmat(r'C:\Users\shaya\Downloads\train_32x32.mat')['X']
+trX=io.loadmat(r'C:\Users\shaya\Downloads\train_32x32.mat')['X']  
 trY = io.loadmat(r'C:\Users\shaya\Downloads\train_32x32.mat')['y']
 tsX = io.loadmat(r'C:\Users\shaya\Downloads\test_32x32.mat')['X']
 tsY = io.loadmat(r'C:\Users\shaya\Downloads\test_32x32.mat')['y']
