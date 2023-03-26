@@ -20,4 +20,14 @@ size.SGD (Stochastic Gradient Descent) optimizer is used with a learning rate of
 0.01 for 24 epochs .Training set is used for training the model and test set used as
 the validation set.The test set is used for finding the classification accuracy of the
 model
+### Results
+Prediction accuracy and loss of the test set is computed.Accuracy is 86% and loss
+is 0.526 and also two graphs are plotted for the tensorflow framework model 
+The first one is accuracy of the train and test set as function of epochs and is given
+below![Screenshot (245)](https://user-images.githubusercontent.com/41173314/227751135-c72aaf79-2603-4b18-98a7-3d5adaa4deef.png)
 
+The second one is loss of the model of both the sets as function of epochs and is
+given below ![Screenshot (246)](https://user-images.githubusercontent.com/41173314/227751392-6e082f48-26ba-4154-b121-7ca5ebdfde71.png)
+
+As you can see the accuracy increases and the loss decreases when we increase
+the number of epochs for training the model
