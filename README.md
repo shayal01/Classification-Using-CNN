@@ -14,9 +14,10 @@ function.There are 2 max pooling layers and 3 fully connected layers.The first t
 fully connected layers use Relu as the activation function,but the last layers with the
 10 nodes use softmax as an activation function
 The CNN architecture and parameter settings are as follows: 
-![](Screenshot(244).png)
+![Screenshot (244)](https://user-images.githubusercontent.com/41173314/227750908-3fb87f53-f397-424c-934b-ac2c7ae858f4.png)
 For all the convolutional layers, zero padding is used to get the output of the same
 size.SGD (Stochastic Gradient Descent) optimizer is used with a learning rate of
 0.01 for 24 epochs .Training set is used for training the model and test set used as
 the validation set.The test set is used for finding the classification accuracy of the
 model
+
